@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+    
+        <link rel="stylesheet" href="audiophile.css">
+    <title>Audiophile</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><b>a<img class="audiophile" src="./audiophileImages/audiophileIcon.svg">diophile</b></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link text-dark hello" href="#">Hello, Dooter<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#"><i class="icon-unchecked"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#"><i class="icon-search"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#"><i class="icon-reorder"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="layout">
+            <div class="filter">
+                <div class="filterImage"><img src="./audiophileImages/headphones1.png" alt=""></div>
+                <div class="filterImage"><img src="./audiophileImages/headphones2.png" alt=""></div>
+                <div class="filterImage"><img src="./audiophileImages/headphones3.png" alt=""></div>
+            </div>
+            <div class="layout-image">
+                <img src="./audiophileImages/headphones.png" class="headphoneImage" alt="headphones">
+            </div>
+            <div class="layout-details">
+                <div class="content">
+                    <h1 heading><b>Microsoft Surface Headphones</b></h1>
+                    <h5 class="price">Price: $330</h5>
+                    <ul class="a">
+                        <li class="list-item">Hear crisp, clear audio. Omnisonic Audio wraps you in your favorite music, shows, and more.</li>
+                        <li class="list-item">Lightweight, breathable, and a comfortable size you can wear for a full day of travel or at the office.</li>
+                        <li class="list-item">Your built-in assistant can do it for you. Just ask Microsoft Cortana to play your favorite artist, set a reminder, make a call, get answers to questions, and more.</li>
+                    </ul>
+                    <div class="qualities">
+                        <form class="row">
+                            <span class="col">
+                                <label for="quantity" class="quantity">QTY</label>
+                                <select name="quantity" id="quantity" class="quant">
+                                    <option value="one" class="num">1</option>
+                                    <option value="one" class="num">2</option>
+                                    <option value="one" class="num">3</option>
+                                    <option value="one" class="num">4</option>
+                                    <option value="one" class="num">5</option>
+                                    <option value="one" class="num">6</option>
+                                </select>
+                            </span>
+                            <span class="col radio d-flex align-items-center">
+                                <label for="quantity" class="quantity">Color</label>
+                                <input type="radio" id="black" name="color" value="black" class="radioBtn" checked>
+                                <input type="radio" id="white" name="color" value="white" class="radioBtn">
+                            </span>
+                        </form>
+                    </div>
+                </div>
+                <div class="layout-buttons">
+                    <button class="blackBtn">Buy Now</button>
+                    <button class="whiteBtn"><i class="icon-shopping-cart"></i> Add to Cart</button>
+                </div>
+                <a class="bottomLink text-muted mt-4" href="#"><p>Compare with similar items</p></a>
+            </div>
+        </div>
+        <div class="bottomTag ml-auto"><b>
+            <p>Created with <img src="./audiophileImages/heart(1).svg" alt="heart"> by Dooter Ior</p></b>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>
